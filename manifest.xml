@@ -1,0 +1,11 @@
+<package>
+    <description brief="Import types from ROCK and ROS">
+        This package provides Python utilities to import ROCK and ROS 
+        types to ASN.1 for use in ESROCOS.
+    </description>
+    <author>GMV Aerospace & Defence S.A.U.</author>
+    <copyright>GMV 2018</copyright>
+    <license>GPLv2</license>
+
+    <depend package="python-mako"/>
+</package>
