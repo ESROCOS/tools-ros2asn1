@@ -10,5 +10,5 @@ echo "Done."
 echo ""
 
 echo "Run ASN.1 compilation to C"
-asn1.exe -c -o out_asn -atc out_asn/* taste-types/*
+asn1.exe -c -o out_c -atc out_asn/* taste-types/*
 echo "Done."
