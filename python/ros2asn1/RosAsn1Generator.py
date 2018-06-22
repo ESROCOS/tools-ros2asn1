@@ -25,6 +25,9 @@ class RosAsn1Generator(Asn1Generator):
     
     # Primitive types that can be represented as OCTET STRING in ASN.1
     OctetTypes = ['uint8', 'byte', 'char']
+    
+    # Default maximum size for variable size types
+    DefaultMaxSize = 60
 
     def __init__(self, rospack, pkg_name):
         self.rospack = rospack

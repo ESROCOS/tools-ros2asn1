@@ -19,7 +19,7 @@
 
 % for msg in pkg.variable_size_messages():
 <%                              %>    -- Size constant for type ${pkg.asn_type_name(pkg.pkg_name, msg)}
-<%                              %>    ${pkg.asn_size_constant(msg)} T-UInt32 ::= 200
+<%                              %>    ${pkg.asn_size_constant(msg)} T-UInt32 ::= ${pkg.DefaultMaxSize}
 
 % endfor
 <%                              %>END
