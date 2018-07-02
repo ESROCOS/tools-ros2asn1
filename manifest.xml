@@ -1,6 +1,6 @@
 <package>
     <description brief="Import types from ROCK and ROS">
-        This package provides Python utilities to import ROCK and ROS 
+        This package provides Python utilities to import ROS 
         types to ASN.1 for use in ESROCOS.
     </description>
     <author>GMV Aerospace & Defence S.A.U.</author>

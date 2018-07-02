@@ -22,7 +22,6 @@ def parse_args():
     '''
     inputfile = ''
     outdir_asn = ''
-    outdir_support = ''
     try:
         args = sys.argv[1:]
         optlist, args = getopt.gnu_getopt(
