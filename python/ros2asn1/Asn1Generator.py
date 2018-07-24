@@ -16,7 +16,7 @@ class Asn1Generator(object):
         # From Maxime - ESA GNC Team
         "open", "close", "flag",
         #From Raquel - ESROCOS
-        "name", "size", "data"
+        "name", "size", "data", "range"
     ]
 
     # Types imported from TASTE-BasicTypes
@@ -39,7 +39,7 @@ class Asn1Generator(object):
     def asn_field_name(cls, fieldname):
         '''Transform string to ASN.1 field name'''
         if fieldname.lower() in cls.ForbiddenKeywords:
-            fieldname = fieldname + '_value'
+            fieldname = fieldname + '-value'
         uncap = fieldname[0].lower() + fieldname[1:] if fieldname else ''
         return string.replace(uncap, '_', '-')
         
