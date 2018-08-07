@@ -16,7 +16,7 @@ class Asn1Generator(object):
         # From Maxime - ESA GNC Team
         "open", "close", "flag",
         #From Raquel - ESROCOS
-        "name", "size", "data", "range"
+        "name", "size", "data", "range", "subtype"
     ]
 
     # Types imported from TASTE-BasicTypes
