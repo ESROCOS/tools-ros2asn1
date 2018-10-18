@@ -6,6 +6,6 @@
     <author>GMV Aerospace & Defence S.A.U.</author>
     <copyright>GMV 2018</copyright>
     <license>GPLv2</license>
-
+    <depend package="tools/config"/>
     <depend package="python-mako"/>
 </package>
